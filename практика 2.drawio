@@ -1,0 +1,620 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Страница-1" id="sS58_ybXhdVy3Vett1S3">
+    <mxGraphModel dx="6970" dy="3980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <object label="" id="0">
+          <mxCell />
+        </object>
+        <mxCell id="1" parent="0" />
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-1" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Составить алгоритм вычисления объема, массы и площади основания цилиндрического тела, если известны его плотность и геометрические размеры: радиус основания и высота.&#xa;— Входные данные: R (радиус основания цилиндра), h (высота цилиндра), ρ (плотность материала);&#xa;— Выходные данные: m (масса), V (объем), S (площадь основания)." vertex="1">
+          <mxGeometry height="100" width="490" x="-827" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-7" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="-750" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-8" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-700" y="325" />
+              <mxPoint x="-630" y="325" />
+              <mxPoint x="-630" y="350" />
+              <mxPoint x="-631" y="350" />
+            </Array>
+            <mxPoint x="-700" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-12" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-13" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="ввод R, h, p" vertex="1">
+          <mxGeometry height="60" width="120" x="-760" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Sосн = 3,14 * R^2" vertex="1">
+          <mxGeometry height="60" width="120" x="-827" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-19" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="V = 3,14 * R^2 * h" vertex="1">
+          <mxGeometry height="60" width="120" x="-700" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-18" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-520" y="540" />
+            </Array>
+            <mxPoint x="-460" y="480" as="sourcePoint" />
+            <mxPoint x="-555" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="m = p * V" vertex="1">
+          <mxGeometry height="60" width="120" x="-580" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод&lt;div&gt;S, V, m&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-720" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-20" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-767" y="540" />
+              <mxPoint x="-718" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-21" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="-710" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-22" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-23" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Составить алгоритм вычисления стоимости покупки с учетом скидки: при покупке товара на сумму больше 500 руб. предоставляется скидка 10 %.&#xa;— Входные данные: a (цена единицы товара), b (количество единиц товара);&#xa;— Выходные данные: s (сумма покупки)." vertex="1">
+          <mxGeometry height="80" width="417" x="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-39" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="-270" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-41" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-51" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="ввод a, b" vertex="1">
+          <mxGeometry height="60" width="120" x="-160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-46" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-48" connectable="0" parent="5JItkI7Cax0Kmu8i-WYK-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="да" vertex="1">
+          <mxGeometry relative="1" x="0.2889" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-47" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-49" connectable="0" parent="5JItkI7Cax0Kmu8i-WYK-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="нет" vertex="1">
+          <mxGeometry relative="1" x="-0.3333" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-30" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="p &amp;gt; 500?" vertex="1">
+          <mxGeometry height="80" width="110" x="-170" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-33" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="p = a * b" vertex="1">
+          <mxGeometry height="60" width="120" x="-280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-55" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="S += p" vertex="1">
+          <mxGeometry height="60" width="120" x="-50" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-52" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="p - p * 0,1" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-40" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="s = 0" vertex="1">
+          <mxGeometry height="60" width="120" x="-100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-44" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод S" vertex="1">
+          <mxGeometry height="60" width="120" x="-370" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-56" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Составить алгоритм подсчета количества сотрудников фирмы, зарплата которых превышает 20 тыс. руб. &#xa;— Входные данные: n (число сотрудников); S (размер зарплаты); i (параметр);&#xa;— Выходные данные: счетчик К (количество сотрудников)." vertex="1">
+          <mxGeometry height="80" width="460" x="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-60" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-57" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-75" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="i = 1, n = 0" vertex="1">
+          <mxGeometry height="60" width="100" x="250" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-61" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="ввод n, S, i" vertex="1">
+          <mxGeometry height="60" width="120" x="304" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-64" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="364" y="510" />
+              <mxPoint x="560" y="510" />
+              <mxPoint x="560" y="400" />
+              <mxPoint x="557.04" y="400" />
+            </Array>
+            <mxPoint x="530" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-66" connectable="0" parent="5JItkI7Cax0Kmu8i-WYK-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="да" vertex="1">
+          <mxGeometry relative="1" x="0.1019" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-77" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-79" connectable="0" parent="5JItkI7Cax0Kmu8i-WYK-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="нет" vertex="1">
+          <mxGeometry relative="1" x="-0.56" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-63" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="S &amp;gt; 20000?" vertex="1">
+          <mxGeometry height="60" width="100" x="324" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-74" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-76" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="i += 1" vertex="1">
+          <mxGeometry height="60" width="66" x="414" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-78" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="n += 1" vertex="1">
+          <mxGeometry height="60" width="66" x="524" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-72" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Начав тренировки, лыжник в первый день пробежал 10 км. Каждый следующий день он увеличивал пробег на 10 % от пробега предыдущего дня. Составить алгоритм определения, в какой день он пробежит больше 20 км." vertex="1">
+          <mxGeometry height="70" width="400" x="680" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод n" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-82" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-80" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="820" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-87" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="i = 10, d = 1" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-90" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="300" />
+              <mxPoint x="940" y="300" />
+              <mxPoint x="940" y="345.04" />
+            </Array>
+            <mxPoint x="920" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="d += 1, i += 0,1 * i" vertex="1">
+          <mxGeometry height="60" width="120" x="1000" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-88" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="да">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-89" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-83" value="нет">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-85" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="i &amp;gt; 20?" vertex="1">
+          <mxGeometry height="70" width="120" x="810" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод d" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-92" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="820" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-93" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-94" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Составить алгоритм расчета премии: если оклад сотрудника &amp;gt; 5 000 процент премии составляет 10%; если оклад &amp;lt; 5 000, то процент премии равен 12%." vertex="1">
+          <mxGeometry height="50" width="410" x="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-98" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-96" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="1260" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-100" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="ввод o, p" vertex="1">
+          <mxGeometry height="60" width="120" x="1250" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-101" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-103" value="да">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-102" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-104" value="нет">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-99" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="o &amp;gt; 5000?" vertex="1">
+          <mxGeometry height="80" width="100" x="1260" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-109" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="p = 10%" vertex="1">
+          <mxGeometry height="60" width="80" x="1330" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-110" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="p = 12%" vertex="1">
+          <mxGeometry height="60" width="80" x="1210" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-105" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="1260" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод p" vertex="1">
+          <mxGeometry height="60" width="80" x="1270" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-108" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-111" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Составить алгоритм нахождения числа десятков и единиц в двухзначном числе" vertex="1">
+          <mxGeometry height="40" width="250" x="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-114" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-112" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="1733" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-118" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="ввод num" vertex="1">
+          <mxGeometry height="60" width="120" x="1723" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-124" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="a = int(num/10)" vertex="1">
+          <mxGeometry height="60" width="120" x="1670" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="sot = int(num/100)" vertex="1">
+          <mxGeometry height="60" width="120" x="1580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-121" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="num = num - sot" vertex="1">
+          <mxGeometry height="60" width="120" x="1723" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-120" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-128" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="num = num - a" vertex="1">
+          <mxGeometry height="60" width="120" x="1670" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-129" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод num, a" vertex="1">
+          <mxGeometry height="60" width="120" x="1760" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-127" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="1770" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-130" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Известны данные о мощности (в единицах силы) двигателей 30 моделей легковых автомобилей. Составить алгоритм определения среди них количества моделей, мощность двигателя которых превышает 200 единиц силы." vertex="1">
+          <mxGeometry height="70" width="470" x="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-131" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Начав тренировки, лыжник в первый день пробежал 10 км. Каждый следующий день он увеличивал пробег на 10 % от пробега предыдущего дня. Составить алгоритм определения, в какой день суммарный пробег за все дни превысит 100 км." vertex="1">
+          <mxGeometry height="70" width="520" x="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-132" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="Составить алгоритм вывода всех натуральных чисел, кратных одиннадцати, меньше 100." vertex="1">
+          <mxGeometry height="40" width="430" x="3300" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-133" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#46495D;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" value="Дано число n. Составить алгоритм поиска первого натурального числа, квадрат которого больше n." vertex="1">
+          <mxGeometry height="50" width="440" x="3970" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-136" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-134" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="2215" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-141" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="ввод i = 1, fff = 0, F&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="2205" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-145" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-139" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-146" connectable="0" parent="5JItkI7Cax0Kmu8i-WYK-145" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.437" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-147" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-148" value="нет">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2265" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-137" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="&lt;div&gt;i = 31?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="2205" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-138" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="2060" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод i" vertex="1">
+          <mxGeometry height="60" width="120" x="2050" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-140" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-152" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-154">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-153" connectable="0" parent="5JItkI7Cax0Kmu8i-WYK-152" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="да" vertex="1">
+          <mxGeometry relative="1" x="0.4833" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-159" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-156" value="нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-148" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="F &amp;gt; 200?" vertex="1">
+          <mxGeometry height="70" width="120" x="2205" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-157" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="fff += 1," vertex="1">
+          <mxGeometry height="60" width="120" x="2350" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-158" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="i += 1" vertex="1">
+          <mxGeometry height="60" width="60" x="2315" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-160" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-161" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="2810" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-162" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-168" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-163" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="i = 10, d = 1, sum = i" vertex="1">
+          <mxGeometry height="60" width="120" x="2800" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-174" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-165" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="d += 1, i += 0,1 * i" vertex="1">
+          <mxGeometry height="60" width="120" x="2990" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-166" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="да">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2860" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-172" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2960" y="360" />
+              <mxPoint x="2960" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-176" connectable="0" parent="5JItkI7Cax0Kmu8i-WYK-172" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="нет" vertex="1">
+          <mxGeometry relative="1" x="-0.1804" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-168" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="sum &amp;gt; 100?" vertex="1">
+          <mxGeometry height="70" width="120" x="2800" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-169" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="вывод d" vertex="1">
+          <mxGeometry height="60" width="120" x="2800" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-170" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="2810" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-171" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-175" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" target="5JItkI7Cax0Kmu8i-WYK-168">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2960" y="270" />
+              <mxPoint x="2960" y="300" />
+              <mxPoint x="2860" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-173" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="sum += i" vertex="1">
+          <mxGeometry height="60" width="120" x="2990" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-2" edge="1" parent="1" source="5JItkI7Cax0Kmu8i-WYK-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" target="_9OlHdziystdbknNVJWX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-178" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="3500" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-179" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" value="Жорик" vertex="1">
+          <mxGeometry height="60" width="30" x="3330" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-181" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" value="проходи,не задерживайся" vertex="1">
+          <mxGeometry height="50" width="85" x="3330" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-183" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="60" width="85" x="3302.5" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="5JItkI7Cax0Kmu8i-WYK-185" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="40" width="85" x="3302.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="ввод i = 1" vertex="1">
+          <mxGeometry height="60" width="120" x="3490" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-6" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" target="_9OlHdziystdbknNVJWX-7" value="да">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3395" y="365" />
+            </Array>
+            <mxPoint x="3410" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-8" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" target="_9OlHdziystdbknNVJWX-9" value="нет">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3550" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=center;fontSize=13;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="&lt;font&gt;i = 100?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="3500" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-5" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" target="_9OlHdziystdbknNVJWX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;fontSize=13;sketch=1;curveFitting=1;jiggle=2;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="3287.5" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-10" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" target="_9OlHdziystdbknNVJWX-14" value="float">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3740" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-11" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.446;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="_9OlHdziystdbknNVJWX-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3663.5" y="500" />
+            </Array>
+            <mxPoint x="3650" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-13" connectable="0" parent="_9OlHdziystdbknNVJWX-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fontSize=13;" value="int" vertex="1">
+          <mxGeometry relative="1" x="0.3493" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=center;fontSize=13;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="&lt;font&gt;тип(i/11)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="3500" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-15" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" target="_9OlHdziystdbknNVJWX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="вывод I" vertex="1">
+          <mxGeometry height="60" width="120" x="3610" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="i += 1" vertex="1">
+          <mxGeometry height="60" width="120" x="3690" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-16" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" target="_9OlHdziystdbknNVJWX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-20" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" target="_9OlHdziystdbknNVJWX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-17" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="начало" vertex="1">
+          <mxGeometry height="60" width="100" x="4110" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-22" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" target="_9OlHdziystdbknNVJWX-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4160" y="320.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="ввод n, a = 0" vertex="1">
+          <mxGeometry height="60" width="100" x="4110" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-29" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" target="_9OlHdziystdbknNVJWX-23" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-30" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="нет">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4160" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="a ^ 2 &amp;gt; n?" vertex="1">
+          <mxGeometry height="80" width="100" x="4110" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="вывод а" vertex="1">
+          <mxGeometry height="60" width="120" x="3950" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-25" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="конец" vertex="1">
+          <mxGeometry height="60" width="100" x="3960" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-26" edge="1" parent="1" source="_9OlHdziystdbknNVJWX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" target="_9OlHdziystdbknNVJWX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_9OlHdziystdbknNVJWX-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#788AA3;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#46495D;fillColor=#B2C9AB;fontSize=13;" value="а += 1" vertex="1">
+          <mxGeometry height="60" width="100" x="4110" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vF3k9WgbbRTIVCybA5K0" name="Страница-2">
+    <mxGraphModel dx="23020" dy="15860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
